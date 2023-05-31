@@ -1,0 +1,16 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 25%;
+    height: 400px;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+.col1{
+    text-align: right;
+    padding-right: 15px;
+}
+.umarow{
+    height: 50px;
+}

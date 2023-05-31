@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="exemplo.php" method="get">
+        <table>
+            <tr>
+                <td class="meio"><label for="apelido">Apelido:</label></td>
+                <td class="meio"><input type="text" name="apelido" id="apelido"></td>
+            </tr>
+            <tr>
+                <td class="arrumar"><label for="pokemon">Pokémon:</label>
+                <td id="pokemons_digitais"><input type="radio" id="poke_bulba" name="pokemon" value="bulbasauro">
+                    <label for="poke_bulba"><img src="fotos/bulbasaur.jpg" alt="bulbasauro"></label>
+                    <br>
+                    <input type="radio" id="poke_charmander" name="pokemon" value="charmander">
+                    <label for="poke_charmander"><img src="fotos/charmander.jpg" alt=""charmander></label>
+                    <br>
+                    <input type="radio" id="poke_squirtle" name="pokemon" value="squirtle">
+                    <label for="poke_squirtle"><img src="fotos/squirtle.jpg" alt="squirtle"></label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="direita"><input type="submit" value="Começar!" id="start"></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

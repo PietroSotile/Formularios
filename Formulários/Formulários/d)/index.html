@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="login.php" method="post">
+        <table>
+            <tr>
+                <td class="espaco"><label for="nome">Nome:</label></td>
+                <td class="espaco"><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <td class="espaco"><label for="senha">Senha:</label></td>
+                <td class="espaco"><input type="password" name="senha" id="senha"></td>
+            </tr>
+            <tr>
+                <td id="check">
+                    <input type="checkbox" name="conectado" id="conectado">
+                </td>
+                <td><label for="conectado">Mantenha-me conectado</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="enter"><input type="submit" value="Entrar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

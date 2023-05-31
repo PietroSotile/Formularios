@@ -1,0 +1,30 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px dotted;
+    border-collapse: collapse;
+}
+#tabela{
+    width: 30%;
+    min-height: 200px;
+}
+#nome{
+    width: 90%;
+}
+#escolaridade{
+    width: 45%;
+}
+#enviar{
+    text-align: right;
+    padding-right: 15px;
+}
+.esquerda{
+    text-align: right;
+    padding-right: 15px;
+}
+.direita{
+    text-align: left;
+    padding-left: 15px;
+}

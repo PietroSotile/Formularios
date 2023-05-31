@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="cad_candidato" method="post">
+        <table>
+            <tr class="umarow">
+                <td class="col1"><label for="nome">Nome do candidato</label></td>
+                <td><input type="text" id="nome" name="nome"></td>
+            </tr>
+            <tr class="umarow">
+                <td class="col1"><label for="curriculo">Currículo:</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td class="col1">
+                    <label for="competencias">Competências:</label>
+                </td>
+                <td><input type="checkbox" id="bd" name="banco_dados" value="banco_dados">
+                    <label for="bd">Banco de Dados</label>
+                    <br>
+                    <input type="checkbox" id="doc" name="documentacao" value="documentacao">
+                    <label for="doc">Documentação</label>
+                    <br>
+                    <input type="checkbox" id="ci" name="criacao_interface" value="criacao_interface">
+                    <label for="ci">Criação de Interface</label>
+                    <br>
+                    <input type="checkbox" id="lp" name="linguagem_programacao" value="liguagem_programacao">
+                    <label for="lp">Linguagem de Programação</label>
+                    <br>
+                    <input type="checkbox" id="tr" name="testagem_requisitos" value="testagem_requisitos">
+                    <label for="tr">Testagem de Requisitos</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1"><label for="msg">Informações adicionais:</label></td>
+                <td><textarea name="msg" rows="5" cols="30">[Coloque aqui outras Informações relevantes sobre seu perfil profissional.] </textarea></td>
+            </tr>
+            <tr class="umarow">
+                <td colspan="2" class="col1"><input type="submit" value="Candidatar-se"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
